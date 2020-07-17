@@ -13,3 +13,5 @@ tar -zxvf ${KUBENS_FILE_NAME}
 chmod +x ./kubens
 mv ./kubens /usr/local/bin/kubens
 rm ${KUBENS_FILE_NAME}
+
+rm LICENSE
